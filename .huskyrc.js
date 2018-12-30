@@ -1,7 +1,7 @@
-'use strict';
+"use strict"
 
 module.exports = {
-    hooks: {
-        'commit-msg': 'npm run beforecommit'
-    }
-};
+  hooks: {
+    "commit-msg": "npm run beforecommit"
+  }
+}
