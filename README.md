@@ -9,6 +9,7 @@ keenwon's preset for [elint](https://github.com/keenwon/elint).
 
 - eslint: [eslint-config-standard](https://github.com/standard/eslint-config-standard)
 - stylelint: [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+- commitlint: [@commitlint/config-angular](https://github.com/marionebl/commitlint/blob/master/%40commitlint/config-angular/README.md)
 
 ## Usage
 
