@@ -32,5 +32,8 @@
   },
   "peerDependencies": {
     "elint": "^1"
+  },
+  "elint": {
+    "updateCheckInterval": 86400000
   }
 }
