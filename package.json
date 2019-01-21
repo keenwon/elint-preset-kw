@@ -34,6 +34,6 @@
     "elint": "^1"
   },
   "elint": {
-    "updateCheckInterval": 86400000
+    "updateCheckInterval": "1d"
   }
 }
