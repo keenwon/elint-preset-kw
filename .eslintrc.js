@@ -48,7 +48,7 @@ module.exports = {
       plugins: ["@typescript-eslint/eslint-plugin"],
       rules: {
         /**
-         * 根据 plugin:@typescript-eslint/recommended 改写，同时尽量和 standard 保持一致
+         * 基于 plugin:@typescript-eslint/recommended 改写，同时尽量和 standard 保持一致
          */
         "@typescript-eslint/adjacent-overload-signatures": "error",
         "@typescript-eslint/array-type": "error",
@@ -67,7 +67,7 @@ module.exports = {
         "@typescript-eslint/no-array-constructor": "error",
         "@typescript-eslint/no-empty-interface": "error",
         "@typescript-eslint/no-explicit-any": "warn",
-        "@typescript-eslint/no-inferrable-types": "error",
+        "@typescript-eslint/no-inferrable-types": "off",
         "@typescript-eslint/no-misused-new": "error",
         "@typescript-eslint/no-namespace": "error",
         "@typescript-eslint/no-non-null-assertion": "error",
