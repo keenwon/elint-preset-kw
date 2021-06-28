@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "09:00"
+    timezone: Asia/Shanghai
+  open-pull-requests-limit: 99
+  assignees:
+  - keenwon
+  versioning-strategy: increase
+  ignore:
+  - dependency-name: eslint-plugin-node
+    versions:
+    - ">= 9.a, < 10"
