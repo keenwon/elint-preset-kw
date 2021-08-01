@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@commitlint/config-angular": "^12.1.4",
+    "@commitlint/config-angular": "^13.1.0",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
     "eslint-config-standard": "^16.0.3",
