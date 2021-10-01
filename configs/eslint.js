@@ -1,5 +1,11 @@
 module.exports = {
-  extends: ['standard', 'standard-react', 'standard-with-typescript'],
+  extends: [
+    'standard',
+    'standard-react',
+    'standard-jsx',
+    'plugin:react/jsx-runtime',
+    'standard-with-typescript',
+  ],
   env: {
     browser: true,
     node: true,

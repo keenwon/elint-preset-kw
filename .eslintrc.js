@@ -9,6 +9,16 @@
  * 此文件自动生成，禁止修改！
  */
 
-module.exports = {
+const fs = require('fs')
+
+const config = {
   extends: [require('elint-preset-kw').eslint],
 }
+
+if (fs.existsSync('./tsconfig.json')) {
+  config.parserOptions = {
+    project: './tsconfig.json',
+  }
+}
+
+module.exports = config
