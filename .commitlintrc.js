@@ -1,4 +1,4 @@
-"use strict"
+'use strict';
 
 /**
  * elint-preset-kw
@@ -18,5 +18,5 @@
  */
 
 module.exports = {
-  extends: ["@commitlint/config-angular"]
-}
+  extends: ['@commitlint/config-angular']
+};
