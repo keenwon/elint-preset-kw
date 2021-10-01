@@ -5,6 +5,7 @@ module.exports = {
     'standard-jsx',
     'plugin:react/jsx-runtime',
     'standard-with-typescript',
+    'prettier',
   ],
   env: {
     browser: true,
