@@ -1,6 +1,6 @@
 {
   "name": "elint-preset-kw",
-  "version": "2.0.0-alpha.2",
+  "version": "2.0.0-alpha.3",
   "description": "keenwon's preset for elint",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "elint-helpers": "^1.4.1",
     "eslint-config-standard": "^16.0.3",
     "eslint-config-standard-react": "^11.0.1",
+    "eslint-config-standard-with-typescript": "^21.0.1",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
