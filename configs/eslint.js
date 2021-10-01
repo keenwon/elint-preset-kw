@@ -33,5 +33,7 @@ module.exports = {
         ignoreTemplateLiterals: true,
       },
     ],
+
+    'react/jsx-fragments': ['error', 'element'],
   },
 }
