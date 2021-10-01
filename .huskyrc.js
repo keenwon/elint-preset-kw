@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * elint-preset-kw
  *
@@ -13,6 +11,6 @@
 
 module.exports = {
   hooks: {
-    'commit-msg': 'npm run beforecommit'
-  }
-};
+    'commit-msg': 'npm run beforecommit',
+  },
+}

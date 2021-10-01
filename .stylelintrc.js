@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * elint-preset-kw
  *
@@ -12,5 +10,5 @@
  */
 
 module.exports = {
-  extends: 'stylelint-config-standard'
-};
+  extends: require('elint-preset-kw').stylelint,
+}

@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * elint-preset-kw
  *
@@ -18,5 +16,5 @@
  */
 
 module.exports = {
-  extends: ['@commitlint/config-angular']
-};
+  extends: [require('elint-preset-kw').commitlint],
+}
