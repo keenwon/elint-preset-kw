@@ -1,6 +1,6 @@
 {
   "name": "elint-preset-kw",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "keenwon's preset for elint",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@commitlint/config-angular": "^13.2.0",
+    "@commitlint/config-angular": "^12.1.4",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
     "elint-helpers": "^1.4.1",
