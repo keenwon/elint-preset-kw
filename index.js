@@ -1,9 +1,5 @@
-const commitlint = require('./configs/commitlint')
-const eslint = require('./configs/eslint')
-const stylelint = require('./configs/stylelint')
-
 module.exports = {
-  commitlint,
-  eslint,
-  stylelint,
+  commitlint: require.resolve('./configs/commitlint'),
+  eslint: require.resolve('./configs/eslint'),
+  stylelint: require.resolve('./configs/stylelint'),
 }
