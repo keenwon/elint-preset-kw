@@ -4,7 +4,7 @@
   "description": "keenwon's preset for elint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "elint-helpers install"
   },
   "keywords": [
     "elint-preset",
@@ -25,6 +25,7 @@
     "@commitlint/config-angular": "^13.2.0",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
+    "elint-helpers": "^1.4.1",
     "eslint-config-standard": "^16.0.3",
     "eslint-config-standard-react": "^11.0.1",
     "eslint-plugin-import": "^2.24.2",
