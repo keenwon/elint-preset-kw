@@ -1,6 +1,6 @@
 {
   "name": "elint-preset-kw",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "keenwon's preset for elint",
   "main": "index.js",
   "scripts": {
