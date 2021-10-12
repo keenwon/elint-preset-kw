@@ -15,9 +15,13 @@ const config = {
   extends: [require('elint-preset-kw').eslint],
 }
 
-if (fs.existsSync('./tsconfig.json')) {
+const tsconfigs = fs
+  .readdirSync('./')
+  .filter((file) => /^tsconfig(\..+)?\.json$/.test(file))
+
+if (tsconfigs.length) {
   config.parserOptions = {
-    project: './tsconfig.json',
+    project: tsconfigs,
   }
 }
 
