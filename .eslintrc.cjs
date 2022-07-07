@@ -12,7 +12,7 @@
 const fs = require('fs')
 
 const config = {
-  extends: [require('elint-preset-kw').eslint],
+  extends: [require('elint-preset-kw').configs.eslint],
 }
 
 const tsconfigs = fs

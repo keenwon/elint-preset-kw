@@ -16,5 +16,5 @@
  */
 
 module.exports = {
-  extends: [require('elint-preset-kw').commitlint],
+  extends: [require('elint-preset-kw').configs.commitlint],
 }

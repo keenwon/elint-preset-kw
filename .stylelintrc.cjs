@@ -10,5 +10,5 @@
  */
 
 module.exports = {
-  extends: require('elint-preset-kw').stylelint,
+  extends: require('elint-preset-kw').configs.stylelint,
 }
