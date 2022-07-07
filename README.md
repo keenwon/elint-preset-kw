@@ -1,7 +1,6 @@
 # elint-preset-kw
 
 [![NPM version][npm-image]][npm-url]
-[![Dependencies Status][dependencies-image]][dependencies-url]
 
 keenwon's preset for [elint](https://github.com/keenwon/elint).
 
@@ -19,5 +18,3 @@ npm install elint elint-preset-kw --save-dev
 
 [npm-image]: https://badge.fury.io/js/elint-preset-kw.svg
 [npm-url]: https://www.npmjs.com/package/elint-preset-kw
-[dependencies-image]: https://david-dm.org/keenwon/elint-preset-kw.svg
-[dependencies-url]: https://david-dm.org/keenwon/elint-preset-kw
