@@ -26,7 +26,7 @@
     "@commitlint/core": "^17.0.3",
     "@elint/plugin-commitlint": "^3.0.0-beta.0",
     "@elint/plugin-eslint": "^3.0.0-beta.0",
-    "@elint/plugin-prettier": "^3.0.0-beta.0",
+    "@elint/plugin-prettier": "^3.0.0-beta.1",
     "@elint/plugin-stylelint": "^3.0.0-beta.0",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
