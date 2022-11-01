@@ -28,7 +28,7 @@
     "@elint/plugin-eslint": "^3.0.0-beta.1",
     "@elint/plugin-prettier": "^3.0.0-beta.1",
     "@elint/plugin-stylelint": "^3.0.0-beta.1",
-    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
     "elint-helpers": "^3.0.0-beta.1",
     "eslint": "^8.24.0",
