@@ -23,7 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "@commitlint/config-angular": "^19.7.1",
-    "@commitlint/core": "^19.6.1",
+    "@commitlint/core": "^19.7.1",
     "@elint/plugin-commitlint": "^3.0.0-beta.1",
     "@elint/plugin-eslint": "^3.0.0-beta.1",
     "@elint/plugin-prettier": "^3.0.0-beta.1",
